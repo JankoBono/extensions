@@ -1,0 +1,12 @@
+{
+    "name": "bezjēdzīgs palīgs",
+    "description":"šis palīdzēs māciībās",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts":[{
+        "matches": ["https://www.youtube.com/*"],
+        "matches": ["https://www.google.com/*"],
+        "css": ["style.css"]
+        }]
+}
+
